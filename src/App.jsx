@@ -1,12 +1,41 @@
-import React from 'react'
+import Card from './components/Card';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const tournaments = [
+    {
+      name: 'Aaa Bbb',
+      weight: 'Lorem Ipsum',
+      date: '19981'
+    },
+    {
+      name: 'Aaa Bbb',
+      weight: 'Lorem Ipsum',
+      date: '19981'
+    },
+    {
+      name: 'Aaa Bbb',
+      weight: 'Lorem Ipsum',
+      date: '19981'
+    }
+  ]
 
   return (
     <>
-      <h1>Test git push</h1>
+      <h1>Upcoming ATP Events</h1>
+      <h2>Check below for the current and upcoming tournaments!</h2>
+      {
+        tournaments.map((tournament, i) => {
+          return (<Card 
+            name={tournament.name} 
+            key={i}
+            weight={tournament.weight} 
+            date={tournamnet.date} />)
+
+        })
+      }
+
     </>
   )
 }
