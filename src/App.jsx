@@ -60,7 +60,7 @@ function App() {
     <>
       <h1>Upcoming ATP Events</h1>
       <h2>Check below for the current and upcoming tournaments!</h2>
-      <div className='cardContainer'>
+      <div className='card-container'>
         {
           tournaments.map((tournament, i) => {
             return (<Card 
