@@ -9,4 +9,4 @@ function Card({ name, weight, date })  {
     )
   }
   
-  export default Card
+    export default Card
