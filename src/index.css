@@ -36,6 +36,7 @@ h1 {
 .card {
   background-color: grey;
   border: 3px solid white;
+  border-radius: 10px;
   margin: 15px;
   width: 250px;
   height: 300px;
@@ -46,8 +47,8 @@ h1 {
   height: 100px;
 }
 
-p,
 h3,
-h4 {
-  border: 3px red solid;
+h4,
+p {
+  line-height: 0.2;
 }
