@@ -70,7 +70,7 @@ function App() {
     {
       name: 'Barcelona Open',
       weight: 'ATP 500',
-      date: 'Apr 15 - Apr 21',
+      date: 'Apr 13 - Apr 21',
       image: 'images/barcelona.jpg',
       link: 'https://www.barcelonaopenbancsabadell.com/en/home/'
     }
